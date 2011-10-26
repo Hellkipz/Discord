@@ -1,6 +1,8 @@
 #include "Platy.h"
 #include "malos.h"
 #include "Bala.h"
+#include "Network/NetClient.h"
+#include "Network/NetServer.h"
 #include <time.h>
 #include <cmath>
 #ifdef __cplusplus
@@ -22,6 +24,7 @@
 
 MalosBasico* Enemigo[30] = {NULL};
 Bullet* B[30] = {NULL};
+bool gamestarted = false;
 
 void SDL_SurfaceInfo(char * name, SDL_Surface *thing)
 {
@@ -141,6 +144,20 @@ int main ( int argc, char** argv )
                         case SDLK_ESCAPE:
                             done = true;
                             break;
+                        case SDLK_n:
+                            if (!gamestarted)
+                            {
+                                gamestarted = true;
+                                g_server.Init();
+                            }
+                            break;
+                        case SDLK_m:
+                            if (!gamestarted)
+                            {
+                                gamestarted = true;
+                                g_netclient.Init();
+                            }
+                            break;
                     }
                     break;
                 }
@@ -162,6 +179,11 @@ int main ( int argc, char** argv )
         /// EMPIEZA CICLO DE JUEGO
 
         Keys = SDL_GetKeyState(NULL);
+
+        //no entramos al ciclo del juego
+        if (gamestarted == false)
+            continue;
+
 
         //Crea un enemigo cada 4 segundos (aprox)
         if (Tiempo > 2.0f * CantidadEnemigos && CantidadEnemigos <= 29)
