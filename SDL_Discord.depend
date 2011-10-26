@@ -1,0 +1,403 @@
+# depslib dependency file v1.0
+1319564099 source:/home/mayaglez/Escritorio/SDL_Discord/main.cpp
+	"Platy.h"
+	"malos.h"
+	"Bala.h"
+	<time.h>
+	<cmath>
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/sge.h>
+	<SDL/SDL_ttf.h>
+	<SDL.h>
+	<SDL_image.h>
+	<sge.h>
+	<SDL_ttf.h>
+
+1301615163 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1301615164 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1301615163 /usr/include/SDL/SDL_platform.h
+
+1301615163 /usr/include/SDL/begin_code.h
+
+1301615164 /usr/include/SDL/close_code.h
+
+1301615163 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_keysym.h
+
+1301615163 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1301615163 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1301615163 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1300979418 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1319091460 /home/mayaglez/Escritorio/SDL_Discord/Platy.h
+	<SDL/SDL.h>
+	<SDL.h>
+
+1319091460 source:/home/mayaglez/Escritorio/SDL_Discord/Platy.cpp
+	"Platy.h"
+	<cmath>
+
+1212144018 /usr/include/SDL/sge.h
+	"sge_surface.h"
+	"sge_primitives.h"
+	"sge_misc.h"
+	"sge_tt_text.h"
+	"sge_bm_text.h"
+	"sge_textpp.h"
+	"sge_blib.h"
+	"sge_shape.h"
+	"sge_collision.h"
+	"sge_rotation.h"
+
+1212144018 /usr/include/SDL/sge_surface.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_internal.h
+	"sge_config.h"
+
+1212144018 /usr/include/SDL/sge_config.h
+
+1212144018 /usr/include/SDL/sge_primitives.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_misc.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_tt_text.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_bm_text.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_textpp.h
+	"SDL.h"
+	"sge_internal.h"
+	<string>
+	<stdio.h>
+	"sge_tt_text.h"
+	"sge_bm_text.h"
+	"sge_shape.h"
+
+1212144018 /usr/include/SDL/sge_shape.h
+	"SDL.h"
+	"sge_internal.h"
+	<list>
+	"sge_surface.h"
+	"sge_collision.h"
+
+1212144018 /usr/include/SDL/sge_collision.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_blib.h
+	"SDL.h"
+	"sge_internal.h"
+
+1212144018 /usr/include/SDL/sge_rotation.h
+	"SDL.h"
+	"sge_internal.h"
+
+1318937468 source:/media/KINGSTON/SDL_Discord/Platy.cpp
+	"Platy.h"
+	<cmath>
+
+1318929946 /media/KINGSTON/SDL_Discord/Platy.h
+	<SDL/SDL.h>
+	<SDL.h>
+
+1319059484 source:/media/KINGSTON/SDL_Discord/main.cpp
+	"Platy.h"
+	"malos.h"
+	<time.h>
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/sge.h>
+	<SDL.h>
+	<SDL_image.h>
+	<sge.h>
+
+1319554152 source:/home/mayaglez/Escritorio/SDL_Discord/malos.cpp
+	"malos.h"
+	<cmath>
+	<cstdlib>
+
+1319554152 /home/mayaglez/Escritorio/SDL_Discord/malos.h
+	<ctime>
+
+1319057336 /media/KINGSTON/SDL_Discord/malos.h
+	<ctime>
+
+1319057336 source:/media/KINGSTON/SDL_Discord/malos.cpp
+	"malos.h"
+	<cmath>
+	<cstdlib>
+
+1319092068 source:/home/mayaglez/Escritorio/SDL_Discord/Bala.cpp
+	"Bala.h"
+	<cmath>
+	<stdio.h>
+
+1319092068 /home/mayaglez/Escritorio/SDL_Discord/Bala.h
+	<SDL/SDL.h>
+	<SDL.h>
+
+1301737694 /usr/include/SDL/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1319092068 source:/home/zaxuhe/Desktop/SDL_Discord/Bala.cpp
+	"Bala.h"
+	<cmath>
+	<stdio.h>
+
+1319092068 /home/zaxuhe/Desktop/SDL_Discord/Bala.h
+	<SDL/SDL.h>
+	<SDL.h>
+
+1319091460 source:/home/zaxuhe/Desktop/SDL_Discord/Platy.cpp
+	"Platy.h"
+	<cmath>
+
+1319091460 /home/zaxuhe/Desktop/SDL_Discord/Platy.h
+	<SDL/SDL.h>
+	<SDL.h>
+
+1319641625 source:/home/zaxuhe/Desktop/SDL_Discord/main.cpp
+	"Platy.h"
+	"malos.h"
+	"Bala.h"
+	<time.h>
+	<cmath>
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/sge.h>
+	<SDL/SDL_ttf.h>
+	<SDL.h>
+	<SDL_image.h>
+	<sge.h>
+	<SDL_ttf.h>
+
+1319554152 /home/zaxuhe/Desktop/SDL_Discord/malos.h
+	<ctime>
+
+1319554152 source:/home/zaxuhe/Desktop/SDL_Discord/malos.cpp
+	"malos.h"
+	<cmath>
+	<cstdlib>
+
+1319641724 source:/home/zaxuhe/Desktop/SDL_Discord/Network/NetClient.cpp
+	"NetClient.h"
+
+1318559794 /home/zaxuhe/Desktop/SDL_Discord/Network/NetClient.h
+	<SDL.h>
+	<SDL_net.h>
+	<string>
+
+1193837800 /usr/include/SDL/SDL_net.h
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1318612516 source:/home/zaxuhe/Desktop/SDL_Discord/Network/NetServer.cpp
+	"NetServer.h"
+	"tcputil.h"
+
+1318612477 /home/zaxuhe/Desktop/SDL_Discord/Network/NetServer.h
+	<SDL.h>
+	<SDL_net.h>
+	<string>
+	<map>
+	<iostream>
+	<sstream>
+	<cctype>
+	<algorithm>
+
+1318559011 /home/zaxuhe/Desktop/SDL_Discord/Network/tcputil.h
+	"SDL.h"
+	"SDL_net.h"
+
